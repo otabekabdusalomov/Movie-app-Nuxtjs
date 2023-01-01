@@ -1,5 +1,15 @@
 <template>
   <div>
-    <h1>Helo Nuxt</h1>
+     <Hero />
   </div>
 </template>
+
+<script>
+import Hero from "./compinents/Hero.vue"
+
+  export default {
+    components: {
+      Hero,
+    }
+  }
+</script>
